@@ -33,5 +33,4 @@ public interface WebDriverConfig extends Config {
 
     @Key("remoteUrl")
     String getRemoteUrl();
-
 }
