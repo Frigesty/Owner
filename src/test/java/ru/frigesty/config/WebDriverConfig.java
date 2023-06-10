@@ -12,10 +12,11 @@ public interface WebDriverConfig extends Config {
     String getBrowserName();
 
     @Key("browserVersion")
+    @DefaultValue("100.0")
     String getBrowserVersion();
 
     @Key("baseUrl")
-    @DefaultValue("https://demoqa.com/")
+    @DefaultValue("https://demoqa.com")
     String getBaseUrl();
 
     @Key("loadStrategy")
